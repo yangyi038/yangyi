@@ -1,0 +1,25 @@
+# Disk DescriptorFile
+version=1
+encoding="GBK"
+CID=c2e81f2e
+parentCID=ffffffff
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 8323072 SPARSE "Fedora 64 λ-s001.vmdk"
+RW 8323072 SPARSE "Fedora 64 λ-s002.vmdk"
+RW 8323072 SPARSE "Fedora 64 λ-s003.vmdk"
+RW 8323072 SPARSE "Fedora 64 λ-s004.vmdk"
+RW 8323072 SPARSE "Fedora 64 λ-s005.vmdk"
+RW 327680 SPARSE "Fedora 64 λ-s006.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "2610"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "9b94a05ff532fb525ce9f972c2e81f2e"
+ddb.uuid = "60 00 C2 97 87 78 57 02-5d e6 7f 27 02 48 14 81"
+ddb.virtualHWVersion = "10"
